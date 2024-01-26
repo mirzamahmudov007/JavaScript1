@@ -58,14 +58,18 @@ li{
     align-items: center;
     gap: 10px;
     font-size: 18px;
-    padding: 0px 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 24px;
 }
 .blackBtn{
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 18px;
-    padding: 0px 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 24px;
 }
 .spanBlack{
     color: white;
