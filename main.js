@@ -52,7 +52,25 @@ function whiteBtn(){
     h1Element.classList.add("h1Black");
     h1Element.classList.remove("h1White");
 
-    console.log("Hi");
+    let piyodaElement1 = document.querySelector(".piyoda");
+    piyodaElement1.classList.add("piyodaBlack");
+
+
+    let velikElement1 = document.querySelector(".velik");
+    velikElement1.classList.add("piyodaBlack");
+
+
+    let carElement1 = document.querySelector(".car");
+    carElement1.classList.add("piyodaBlack");
+
+
+    let airplaneElement1 = document.querySelector(".airplane");
+    airplaneElement1.classList.add("piyodaBlack");
+
+
+    let btn = document.querySelector(".hisoblashBtn");
+    btn.classList.add("btnBlack");
+    console.log(btn.classList);
 }
 
 function blackBtn(){
